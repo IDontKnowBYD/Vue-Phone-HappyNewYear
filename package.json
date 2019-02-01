@@ -1,0 +1,39 @@
+{
+  "name": "vue-pc-map",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "zhushaofeng <zhushaofeng19960409@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": " webpack-dev-server --open --config webpack.config.js",
+    "build": "webpack --progress --hide-modules --config webpack.prod.config.js"
+  },
+  "dependencies": {
+    "vue": "^2.5.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "bmaplib.distancetool": "^1.0.2",
+    "bmaplib.drawingmanager": "^0.1.0",
+    "bmaplib.geoutils": "^1.0.0",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-merge": "^4.1.2"
+  }
+}
