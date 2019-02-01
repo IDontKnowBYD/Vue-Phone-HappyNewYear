@@ -23,7 +23,7 @@ export default {
       this.surprise = true;
       setTimeout(() => {
         this.surprise = false;
-      }, 600);
+      }, 1000);
     }, 13000);
     setTimeout(() => {
       this.word = ['新','年','快','乐'];
@@ -62,6 +62,7 @@ export default {
   }
   #app h1 {
     font-size: 100px;
+    margin: 20px 0;
   }
   .imgContain {
     position: absolute;
