@@ -23,6 +23,7 @@ export default {
       this.surprise = true;
       setTimeout(() => {
         this.surprise = false;
+        this.word = ['E','N','D',''];
       }, 1000);
     }, 13000);
     setTimeout(() => {
