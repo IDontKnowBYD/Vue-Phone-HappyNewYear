@@ -24,7 +24,7 @@ export default {
       setTimeout(() => {
         this.surprise = false;
         this.word = ['E','N','D',''];
-      }, 1000);
+      }, 2000);
     }, 13000);
     setTimeout(() => {
       this.word = ['新','年','快','乐'];
